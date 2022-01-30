@@ -11,9 +11,9 @@ body {
     height: 70px;
 }
 
-.banner-img {
-    width: 650px;
-    height: 350px;
+.banner-img:hover {
+    transform: scale(1.1) rotateY(-360deg);
+    transition: transform 2s ease-in-out;
 }
 
 .text-color-one {
